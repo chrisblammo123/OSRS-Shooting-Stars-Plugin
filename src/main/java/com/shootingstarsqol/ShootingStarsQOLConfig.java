@@ -4,7 +4,7 @@ import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 
-@ConfigGroup("example")
+@ConfigGroup("shootingstarsqol")
 public interface ShootingStarsQOLConfig extends Config
 {
 	@ConfigItem(
@@ -16,4 +16,16 @@ public interface ShootingStarsQOLConfig extends Config
 	{
 		return "Hello";
 	}
+
+	@ConfigItem(
+		keyName = "settingsMaybe",
+		name = "elementName",
+		description = "test hover test test"
+	)
+	default boolean box()
+	{
+		return true;
+	}
+
+
 }
