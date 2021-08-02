@@ -1,11 +1,11 @@
-package com.shootingstarstest;
+package com.shootingstarsqol;
 
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 
 @ConfigGroup("example")
-public interface ExampleConfig extends Config
+public interface ShootingStarsQOLConfig extends Config
 {
 	@ConfigItem(
 		keyName = "greeting",

@@ -1,13 +1,13 @@
-package com.shootingstarstest;
+package com.shootingstarsqol;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class ShootingStarsQOLTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(ShootingStarsQOLPlugin.class);
 		RuneLite.main(args);
 	}
 }
